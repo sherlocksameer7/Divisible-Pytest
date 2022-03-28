@@ -7,6 +7,8 @@ def input():
     x = 40
     return x
 
+
+@pytest.mark.skip(reason="No Need")
 def test_divisible_by_5(input):
 
     # a = 35
